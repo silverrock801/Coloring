@@ -14,10 +14,12 @@ function coloring(color: string[]) {
         else {
             if (temp == color[i]) {
                 time = time + 2
+                temp = color[i]
             }
 
             else {
                 time = time + 3;
+                temp = color[i]
             }
             
 
